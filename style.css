@@ -1,0 +1,71 @@
+body {
+  font-family: Futura, sans-serif;
+  background-color: #0A2954;
+  color: #E3559D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+section {
+  border-color: #E0E722;
+  border-style: solid;
+  border-width: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #E3559D;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #E0E722;
+  color: #E3559D;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.completed {
+  text-decoration: line-through;
+  color:  #E0E722; /* Mantiene il colore originale */
+}
+
+.list-group-item {
+  background-color: transparent; /* Rimuove lo sfondo bianco */
+  border: none; /* Rimuove il bordo */
+}
